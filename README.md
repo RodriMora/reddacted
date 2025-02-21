@@ -50,6 +50,8 @@ reddacted user taylorwilsdon --limit 3
 ```
 https://github.com/user-attachments/assets/db088d58-2f53-4513-95cc-d4b70397ff82
 
+## Requirements
+Python 3.11
 
 ## Installation
 
@@ -59,6 +61,11 @@ pip install .
 
 # Or install in development mode (for contributors)
 pip install -e .
+
+# If using an python venv
+python3.11 -m venv .venv
+source .venv/bin/activate
+python -m pip install .
 ```
 
 That's it! No PATH configuration needed.
